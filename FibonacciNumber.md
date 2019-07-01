@@ -174,6 +174,7 @@ def Fib_matrix_power(n):
 ```
 
 ## 通项公式求解
+![avatar](./img/fib_formula.png)
 详细推导过程可参考：https://www.zhihu.com/question/28062458
 ```
 # 通项公式求解
