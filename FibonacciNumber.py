@@ -105,7 +105,7 @@ def matrix_multiplication(n, A, B):
         for column in range(n):
             item = 0
             for i in range(n):
-                item += A[line][i] * B[column][i]
+                item += A[line][i] * B[i][column]
             line_arr.append(item)
         C.append(line_arr)
     return C
